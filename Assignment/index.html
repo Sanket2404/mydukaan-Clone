@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products Page</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+
+    <!-- navbar -->
+<div>                                                                                            
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+      <div class="container-fluid" id="navbar">
+        <a class="navbar-brand" href="#"
+          ><img src="./img/logo.svg" style="height: 47px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-3 mb-lg-0 fs-5">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+              style="font-size: 19px;"
+                >Products</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="font-size: 19px;">Company</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Pricing.html" style="font-size: 19px;">Pricing</a>
+            </li>
+          </ul>
+          <form class="d-flex fs-5">
+            <a class="nav-link" href="#" style="color: black">Sign In</a>
+
+            <button class="fs-6" type="submit"
+            style="background-color: #146eb4;color: white;padding: 12px;border: none;border-radius: 5px;">
+              Start Free Trial
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- main section -->
+
+    <div class="home-banner">
+      <div class="container-fluid" id="Main_data">
+        <p id="text-section">
+          The global commerce <br/>platform, built for performance
+        </p>
+        <p>
+          Effortlessly launch a stunning online store, attract and<br />
+          convert more customers.
+        </p>
+        <button
+          type="submit"
+        >
+          Start 7-day Free Trial
+        </button>
+        <p id="Simple_Stuff">
+          Also available on
+          <i class="fa fa-apple" style="font-size: 20px; color: black"></i>
+          <i class="fa fa-play" style="font-size: 20px; color: black"></i>
+        </p>
+      </div>
+      <div class="home-banner2">
+        <img
+          src="img/hero_image_shadow-new-ef38d2da7a63bb815162083389e05f32.webp"
+        />
+      </div>
+  </div>
+
+    <!-- slider -->
+  
+    <div class="sliderArea">
+          <div class="wrapper">
+              <div class="item">
+                <img src="img/lg1.svg" alt=""/>
+              </div>
+              <div class="item">
+                <img src="img/lg2.svg" alt=""/>
+              </div>
+              <div class="item">
+                <img src="img/lg3.svg" alt=""/>
+              </div>
+              <div class="item">
+                <img src="img/lg4.svg" alt=""/>
+              </div>
+              <div class="item">
+                <img src="img/lg5.svg" alt=""/>
+              </div>
+              <div class="item">
+                <img src="img/lg6.svg" alt=""/>
+              </div>
+              <div class="item">
+                <img src="img/lg7.svg" alt=""/>
+              </div>
+              <div class="item">
+                <img src="img/lg4.svg" alt=""/>
+              </div>
+              <div class="item">
+                <img src="img/lg2.svg" alt=""/>
+              </div>
+              <div class="item">
+                <img src="img/lg1.svg" alt=""/>
+              </div>
+        </div>
+    </div>
+</div>
+
+   <!-- feature section -->
+
+   <div class="store-feature-section">
+    <div class="container">
+      <h2 class="section-header">
+        Be it Startup or a legacy business,<br> here's why you need Dukaan 
+      </h2>
+      <div class="store-feature-wrap">
+
+        <!-- 1st section -->
+
+        <div class="row-store-feature"> 
+          <div class="col-md-6 store-feature-img">
+            <img src="img/Lunch.svg" />
+          </div>
+          <div class="col-md-6 store-feature-info">
+            <h2>Launch Fast</h2>
+            <ul class="list-star" style="list-style-type:none;">
+              <li><span id="star">&starf;</span>Fully responsive e-commerce website & mobile app.</li>
+              <li><span id="star"> &starf;</span>Loads 6X faster than existing solutions.</li>
+              <li><span id="star">&starf;</span>Upload/import products and inventory in bulk.</li>
+              <li><span id="star">&starf;</span>Integrate payment gateways.</li>
+              <li><span id="star">&starf;</span>Easily customizable themes.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 2nd section -->
+       
+        <div class="row-store-feature1"> 
+          <div class="col-md-6 store-feature-info">
+            <h2>Scale faster</h2>
+            <ul class="list-star" style="list-style-type:none;">
+              <li><span id="star1">&starf;</span>Fully responsive e-commerce website & mobile app.</li>
+              <li><span id="star1"> &starf;</span>Loads 6X faster than existing solutions.</li>
+              <li><span id="star1">&starf;</span>Upload/import products and inventory in bulk.</li>
+              <li><span id="star1">&starf;</span>Integrate payment gateways.</li>
+              <li><span id="star1">&starf;</span>Easily customizable themes.</li>
+            </ul>
+          </div>
+          <div class="col-md-6 store-feature-img">
+            <img src="img/Scale.svg" />
+          </div>
+         
+        </div>
+
+      <!-- 3rd section -->
+
+      <div class="row-store-feature2"> 
+        <div class="col-md-6 store-feature-img">
+          <img src="img/Manage.svg" />
+        </div>
+        <div class="col-md-6 store-feature-info">
+          <h2>Manage Better</h2>
+          <ul class="list-star" style="list-style-type:none;">
+            <li><span id="star2">&starf;</span>Fully responsive e-commerce website & mobile app.</li>
+            <li><span id="star2"> &starf;</span>Loads 6X faster than existing solutions.</li>
+            <li><span id="star2">&starf;</span>Upload/import products and inventory in bulk.</li>
+            <li><span id="star2">&starf;</span>Integrate payment gateways.</li>
+            <li><span id="star2">&starf;</span>Easily customizable themes.</li>
+          </ul>
+        </div>
+      </div>
+      </div>
+    </div>
+   </div>
+
+
+  <!-- E-commerce section -->
+
+
+ <section style="background-color: rgb(236, 223, 205);margin-top: 3%;padding-bottom: 5%;"> 
+   <div class="container">
+    <h2 class="head-h2">E-Commerce, made (incredibly) easy</h2>
+    <p class="head-para">All the tools you need to grow your online business.</p>
+     <div class="tool-banner">
+      <div class="tool-banner-inner " style="padding-top: 50px;">
+
+        <div class="tool-banner-box">
+          <div style="width: 100%; height: 100%;overflow: hidden;">
+            <img src="img/icons8-speed.gif"/>
+          </div>
+          <h5 style="padding-top: 14px;"><strong>Site Speed </strong></h5>
+          <p style="padding: 5px 20px;font-size: 17px;">Incredibly fast storefronts. Don't take our word for it, start selling online see it for yourself!</p>
+        </div>
+
+        <div class="tool-banner-box">
+          <div style="width: 100%; height:100%;overflow: hidden;">
+            <img src="img/warehouse.png" style="width: 55px;"/>
+          </div>
+          <h5 style="padding-top: 14px;"><strong> Multi-Warehouse </strong></h5>
+          <p style="padding:5px 20px;font-size: 17px; ">One store, multiple and locations. Ship products from multiple warehouses across India.</p>
+        </div>
+
+        <div class="tool-banner-box">
+          <div style="width: 100%; height: 100%;overflow: hidden;margin: 0 auto;">
+            <img src="img/icons8-cart-64.png"/>
+          </div>
+          <h5 style="padding-top: 14px;"><strong>Optimised Checkouts</strong></h5>
+          <p style="padding:5px 20px;font-size: 17px;">Offer a seamless shopping experience optimised for checkouts and reduce abandonment rates.</p>
+        </div>
+    </div>
+
+        <div class="tool-banner1">
+       
+        <div class="tool-banner-box" style="padding: 12px 5px">
+          <div style="width: 100%; height: 100%;overflow: hidden;margin: 0 auto;">
+            <img src="img/card.png"/>
+          </div>
+          <h5 style="padding-top: 14px;"><strong>Staff Accounts</strong></h5>
+          <p style="padding-top:5px 20px;font-size: 17px;">Offer a seamless shopping experience optimised for checkouts and reduce abandonment rates.</p>
+        </div>
+
+        <div class="tool-banner-box">
+          <div style="width: 100%; height: 100%;overflow: hidden;margin: 0 auto;">
+            <img src="img/mobile.png"/>
+          </div>
+          <h5 style="padding-top: 14px;"><strong>Android App</strong></h5>
+          <p style="padding-top:5px 20px;font-size: 17px;">Offer a seamless shopping experience optimised for checkouts and reduce abandonment rates.</p>
+        </div>
+
+        <div class="tool-banner-box">
+          <div style="width: 100%; height: 100%;overflow: hidden;margin: 0 auto;">
+            <img src="img/anl.png"/>
+          </div>
+          <h5 style="padding-top: 14px;"><strong>Advanced Analytics</strong></h5>
+          <p style="padding-top:5px 20px;font-size: 17px;">Offer a seamless shopping experience optimised for checkouts and reduce abandonment rates.</p>
+        </div>
+      </div>
+     </div>
+     </div>
+   </div>
+  </section>
+
+
+  <!-- themes section -->
+
+
+  <section class="themes-section" style="background-color: rgb(244, 243, 243);">
+    <div class="container">
+      <h2 class="head-h2">KickStart your online store with these themes</h2>
+      <div class="themes-inner">
+        <div class="theme">
+        <div class="themes-box">
+          <a href="" target="_blank" id="a_theme">
+            <img src="img/Light.webp" alt="light speed">
+            <h5 id="head-h5">LightSpeed</h5>
+          </a>
+        </div>
+
+        <div class="themes-box">
+          <a href="" target="_blank" id="a_theme">
+            <img src="img/matrix.webp" alt="matrix"/>
+            <h5 id="head-h5">Matrix</h5>
+          </a>
+        </div>
+      
+
+        <div class="themes-box">
+          <a href="" target="_blank" id="a_theme">
+            <img src="img/leo.webp" alt="leo"/>
+            <h5 id="head-h5">Leo</h5>
+          </a>
+        </div>
+      </div>
+
+      <div class="theme">
+        <div class="themes-box">
+          <a href="" target="_blank"  id="a_theme">
+            <img src="img/oxford.webp" alt="oxford"/>
+            <h5 id="head-h5">Oxford</h5>
+          </a>
+        </div>
+   
+
+      
+        <div class="themes-box">
+          <a href="" target="_blank"  id="a_theme">
+            <img src="img/nirvan.webp" alt="nirvan"/>
+            <h5 id="head-h5">Nirvana</h5>
+          </a>
+        </div>
+
+        <div class="themes-box" >
+          <a href="" target="_blank" id="a_theme">
+            <img src="img/matrix.webp" alt="mana"/>
+            <h5 id="head-h5">Matrix</h5>
+          </a>
+        </div>
+      </div>
+      </div>
+    </div>
+      </div>
+      
+    <div class="theme-btn">
+       <button>View all</button>
+    </div>
+    </div>
+  </section>
+
+
+ <!-- plugins section -->
+
+
+  <section style="background-color: rgb(236, 223, 205);"> 
+    <div class="container">
+    <h2 class="head-h2">Enhance your site's functionality with plugins</h2>
+    <p class="head-para1">Choose from over 40+ plugins. Be it tracking analytics, managing shipments to<br>building email lists. There's a plugin for everything.</p>
+   
+
+    <div class="home-plugins">
+      <ul id="plugin-list">
+     
+       <li class="first">
+        <img src="img/facelogo.svg"/>
+       </li>
+       <li><img src="img/pricy.svg"/></li>
+       <li><img src="img/clarity.svg" style="margin-top: -20px;"/></li>
+       <li><img src="img/date.svg" style="margin-top: -70px;"/></li>
+       <li><img src="img/db.svg" style="margin-top: -40px;"/></li>
+       <li><img src="img/google.svg"/></li>
+       <li><img src="img/mail.svg"/></li>
+       <li><img src="img/pricy.svg"  style="margin-top: -40px;"/></li>
+       <li><img src="img/facelogo.svg" style="margin-top: -70px;"/></li>
+       <li><img src="img/clarity.svg" style="margin-top: -20px;"/></li>
+       <li><img src="img/date.svg"/></li>
+       <li><img src="img/db.svg"/></li>
+      
+      </ul>
+    </div>
+
+    <div class="plugin-btn">
+      <button>Take a book</button>
+   </div>
+  </div>
+</section>
+
+
+  <!-- Count Section -->
+
+
+  <section class="globe-home-section" style="background-color:rgba(244, 240, 240, 0.972)"> 
+    <div class="container">
+          <h2 class="head-h2">We are in the business of building entrepreneurs.</h2>
+          <p class="head-para1">We are a team of dark horses who believe that technology will ignite the next industrial revolution.<br> Our mission is to reshape the digital retail landscape by defining the future of commerce.</p>
+    </div>
+    <div class="globe-image" style="position: relative;">
+     
+        <img src="img/earth2 (2).png" id="im1" />
+      </div>
+
+      <div class="globe-home">
+          <div class="globe-inner">
+            
+            <div class="globe-inner-box">
+              <h2>94+</h2> 
+              <p>Countries</p>           
+            </div>
+            <div class="globe-inner-box">
+              <h2>9,200+</h2> 
+              <p>Cities covered</p>           
+            </div>
+            <div class="globe-inner-box">
+              <h2>220+</h2> 
+              <p>Employees</p>           
+            </div>
+            <div class="globe-inner-box">
+              <h2>Millions</h2> 
+              <p>of Entrepreneurs</p>           
+            </div>
+
+
+          </div>
+      </div>
+</section>
+
+
+<!-- testimonial section -->
+
+
+<section class="testimonial-section">
+  <div class="container">
+    <div class="testimonial-head">
+      <img src="img/quote.svg" id="im3"/>
+      <h2 class="head-h2">What our customers are saying</h2>
+          <p class="head-para1">From beginners to enterprise brands, everyone loves Dukaan!</p>
+    </div>
+  </div>
+  <div class="testimonial-main" style="padding-top: 4%;">
+    <div class="container">
+      <div class="slider">
+        <div class="slick-track">
+        
+          <div class="slick-track-info">
+              <div class="test-home">
+              <img src="img/test1.svg">
+              <h5>"A true game Changer!"</h5>
+              <p id="data">It's been a really smooth experience with Dukaan. We were deciding<br> between Shopify and 
+                Dukaan. We thought through a lot and Dukaan seemed the<br> smoothest for our selling 
+                experience considering we were setting up our store for the first time.</p>
+             <div class="test-footer">
+              <img src="img/pro1.webp">
+              <div class="test-caption">
+                  <h4>Vishnu tyagi and Piyush</h4>
+                  <p>Owner, Emo of india</p>
+              </div>
+             </div>
+           </div>
+           </div>
+          </div>
+
+
+          <div class="slick-track">
+           <div class="slick-track-info">
+              <div class="test-home">
+                <img src="img/pro.svg" id="im2">
+                <h5>"30x orders after shark tank india"</h5>
+                <p id="data">It's been a really smooth experience with Dukaan. We were deciding<br> between Shopify and 
+                  Dukaan. We thought through a lot and Dukaan seemed the<br> smoothest for our selling 
+                  experience considering we were setting up our store for the first time.</p>
+               <div class="test-footer">
+                <img src="img/test2.webp">
+                <div class="test-caption">
+                  <h4>Anubhav Jain</h4>
+                  <p>Founder& CEO, of Jain Shikanji </p>
+                </div>
+               </div>
+          </div>
+        </div>
+  </div>
+  </div>
+  </div>
+  </div>
+</section>
+
+
+<!-- tips and tricks section -->
+
+
+<section class="tips-section">
+
+  <div class="container">
+    <div class="tips-head">
+      <h2 class="head-h2">Grow your online store.</h2>
+      <h2 class="head-h3">Learn the tips and tricks from experts.</h2>
+    </div>  
+
+  <div class="videos-inner">
+     
+    <div class="videos_box">
+     <a>
+       <img src="img/dukan.jpg">
+       <div class="card-body">
+        <h3 class="card-title">Press</h3>
+        <h4 class="card-description">
+          Dukaan Dimensions 2022 - A Retrospective on the Growth Enabled by Dukaan
+        </h4>
+       </div>
+     </a>
+    </div>
+
+    <div class="videos_box">
+      <a>
+        <img src="img/dukan2.jpg">
+        <div class="card-body">
+         <h3 class="card-title">Sell Online</h3>
+         <h4 class="card-description">
+          How to Sell Antiques Online the Right Way - Detailed 8 Step Guide
+         </h4>
+        </div>
+      </a>
+    </div>
+
+    <div class="videos_box">
+      <a>
+        <img src="img/dukan3.jpg">
+        <div class="card-body">
+         <h3 class="card-title">Press</h3>
+         <h4 class="card-description">
+          How to Sell Cookies Online Successfully - 7 Step Guide for Beginners
+         </h4>
+        </div>
+      </a>
+    </div>
+</div>
+   <div class="plugin-btn1">
+    <button>View all</button>
+ </div>
+</div>
+</section>
+
+<!-- selling card section  -->
+
+
+<section class="selling-section">
+  <div class="container">
+    <div class="selling-items">
+    <div class="selling-home-inner">
+      <img src="img/sell.svg" />
+      <h1 class="heading-h1">Start Selling online</h1>
+      <p id="p1">"Take your business online with Dukaan. Get your free<br> online store in 30 seconds."</p>
+      <button
+          id="btn2"
+          type="submit"
+        >
+          Start 7-day Free Trial
+        </button>
+    </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- footer section -->
+
+
+<section class="footer" style="background-color: rgb(27, 27, 27);">
+<div class="container">
+ <div class="footer-content">
+
+       <div class="footer-content-img">
+        <img src="img/dukan4.svg"/>
+       </div> 
+
+       <div class="footer-content-links">
+        <ul>
+        <li>Business tools</li>
+        <li>Dukaan finder</li>
+        <li>Dukaan for PC</li>
+        <li>Dukaan delivery</li>
+        <li>Dukaan plugins</li>
+        <li>Dukaan themes</li>
+      </ul>
+       </div> 
+
+       <div class="footer-content-links">
+        <ul>
+        <li>Awards'22</li>
+        <li>Help center</li>
+        <li>Blog</li>
+        <li>Banned items</li> 
+      </ul>
+       </div>  
+
+       <div class="footer-content-links">
+        <ul>
+        <li>About</li>
+        <li>Privacy</li>
+        <li>Term</li>
+        <li>Contact</li> 
+        <li>FAQ's</li> 
+      </ul>
+       </div>  
+
+       <div class="footer-content-links">
+        <ul>
+        <li>Jobs</li>
+        <li>Branding</li>
+        <li>Press inquiry</li>
+        <li>Bug Bounty</li> 
+        </ul>
+       </div>  
+
+       <div class="footer-content-links">
+        <ul>
+        <li>Facebook</li>
+        <li>Twitter</li>
+        <li>Linkedin</li>
+       </ul>
+       </div>
+ </div>
+
+ <hr style="height:1px;border-width:0;color:gray;background-color: white;">
+
+ <div class="Copyright-section">
+   <div>
+    Growthpond Technology Pvt Ltd. All rights reserved,2023.
+   </div>
+
+   <div class="made-in-section">
+    <span>Made in</span>
+    <img src="img/india.svg"/>
+   </div>
+ </div>
+ 
+</div>
+</section>
+
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+
+</script> 
+</body>
+</html>

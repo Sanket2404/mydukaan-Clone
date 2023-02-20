@@ -1,0 +1,353 @@
+.toggle-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 25vh;
+}
+
+.switch {
+  position: relative;
+  width: 280px;
+  height: 52px;
+  border-radius: 25px;
+  margin: 0 auto;
+}
+.switch input {
+  appearance: none;
+  width: 290px;
+  height: 58px;
+  border-radius: 25px;
+  background-color: black;
+  border: 1px solid gray;
+}
+.switch input::before,
+.switch input::after {
+  z-index: 2;
+  position: absolute;
+  top: 56%;
+  transform: translateY(-50%);
+  /* font-weight: 100; */
+}
+.switch input::before {
+  content: "Quarterly";
+  left: 18px;
+  color: white;
+  font-size: 18px;
+}
+.switch input::after {
+  content: "Yearly(save 30%)";
+  right: 5px;
+  color: black;
+  font-size: 18px;
+}
+.switch input:checked {
+  background: white;
+}
+.switch label {
+  z-index: 1;
+  position: absolute;
+  top: 9px;
+  /* bottom: 4px; */
+  border-radius: 18px;
+  padding: 20px;
+}
+.switch input {
+  transition: 0.25s;
+}
+.switch input:checked::after,
+.switch input:checked::before {
+  /* color: black; */
+  transition: color 0.5s;
+}
+.switch input:checked + label {
+  left: 10px;
+  right: 160px;
+  background: #146eb4;
+  transition: left 0.5s, right 0.4s 0.2s;
+}
+.switch input:not(:checked) {
+  background: white;
+  transition: background 0.4s;
+}
+.switch input:not(:checked)::before {
+  color: black;
+  transition: color 0.5s;
+}
+.switch input:not(:checked)::after {
+  color: white;
+  transition: color 0.5s 0.2s;
+}
+.switch input:not(:checked) + label {
+  left: 125px;
+  right: 2px;
+  background: #146eb4;
+  transition: left 0.4s 0.2s, right 0.5s, background 0.35s;
+}
+.section-header1 {
+  font-size: 40px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 6%;
+  font-weight: 900;
+}
+.test-home {
+  padding: 30px;
+}
+
+.test-home > #heading-h3 {
+  font-weight: 700;
+  padding-left: 15px;
+}
+.test-home > #heading-h4 {
+  font-size: 20px;
+  color: gray;
+  padding-left: 15px;
+  text-decoration: line-through;
+}
+.test-home > #heading-h5 {
+  font-size: 32px;
+  font-weight: 700;
+  padding-left: 15px;
+}
+
+.test-home > #data4 {
+  font-size: 15px;
+}
+.test-home > #btn3 {
+  background-color: white;
+  color: #146eb4;
+  padding: 12px;
+  border: 1px solid #146eb4;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.test-home > #btn3:hover {
+  background-color: #d1e4f1;
+}
+.test-home > ul > li {
+  font-size: 15px;
+  color: black;
+}
+.slick-track1 {
+  border-radius: 10px;
+  border: 0.1px solid gray;
+  padding: 10px;
+}
+.slider1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.test-home > #btn4 {
+  background-color: #146eb4;
+  color: white;
+  padding: 12px;
+  border: 1px solid #146eb4;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.table-data {
+  display: flex;
+  justify-content: space-between;
+}
+.right-side-data {
+  display: flex;
+}
+.pricing-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-right: 25px;
+}
+.pricing-head > h6 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.pricing-head > #Price {
+  font-size: 16px;
+  color: gray;
+}
+.pricing-head > button {
+  font-size: 16px;
+  padding: 18px;
+  border-radius: 10px;
+  background: white;
+  color: #146eb4;
+  border: 1px solid #146eb4;
+  margin-top: 10px;
+}
+.pricing-head > #btn5 {
+  font-size: 16px;
+  padding: 18px;
+  border-radius: 10px;
+  background: #146eb4;
+  color: white;
+  border: none;
+  margin-top: 10px;
+}
+.left-side-data1 > span {
+  color: gray;
+  font-size: 13px;
+}
+.left-side-data1 {
+  padding-top: 30px;
+}
+.pricing-head > #tick {
+  padding-top: 10px;
+  padding-right: 85px;
+  font-size: 18px;
+}
+.pricing-head > #tick1 {
+  padding-right: 67px;
+  font-size: 15px;
+}
+.left-side-data2 > span {
+  color: gray;
+  font-size: 12px;
+}
+.pricing-head > #tick2 {
+  padding-right: 85px;
+  font-size: 18px;
+}
+.payment-mode {
+  display: flex;
+  justify-content: space-evenly;
+}
+.payment-data {
+  display: flex;
+}
+.payment-info > h6 {
+  color: gray;
+}
+.payment-info > h4 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.text-secondary {
+  color: #3d5d6f;
+}
+
+.h4,
+h4 {
+  font-size: 1.2rem;
+}
+
+h2 {
+  color: #333;
+}
+
+.fa,
+.fas {
+  font-family: "FontAwesome";
+  font-weight: 400;
+  font-size: 1.2rem;
+  font-style: normal;
+}
+
+.right-0 {
+  right: 0;
+}
+#accordion > a {
+  text-decoration: none;
+}
+.top-0 {
+  top: 0;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+a.text-secondary:focus,
+a.text-secondary:hover {
+  text-decoration: none;
+  color: #22343e;
+}
+
+#accordion .fa-plus {
+  transition: -webkit-transform 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out;
+}
+
+#accordion a[aria-expanded="true"] .fa-plus {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+
+/* media queries */
+
+
+@media only screen and (max-width: 600px) and (min-width: 370px) {
+  .section-header1 {
+    font-size: 24px;
+    margin-top: 10%;
+    font-weight: 600;
+  }
+  .toggle-price {
+    height: 18vh;
+  }
+
+  .switch {
+    height: 44px;
+    width: 285px;
+  }
+  .switch input {
+    width: 290px;
+    height: 55px;
+  }
+  .test-home > h3 {
+    font-weight: 100;
+  }
+  .slider1 {
+    flex-direction: column;
+  }
+  .slick-track1 {
+    margin-top: 20px;
+  }
+  .test-home {
+    padding: 10px;
+  }
+  .table-data {
+    flex-direction: column;
+  }
+  .payment-data {
+    flex-direction: column;
+  }
+  .payment-data > .payment-img {
+    margin: 0 auto;
+    margin-top: 18px;
+  }
+  .payment-data > .payment-info > h4 {
+    text-align: center;
+  }
+  .payment-data > .payment-info > span {
+    text-align: center;
+  }
+
+  .payment-mode {
+    flex-direction: column;
+  }
+  .pricing-head {
+    padding-right: 45px;
+  }
+  .pricing-head > button {
+    font-size: 10px;
+  }
+  .pricing-head > #btn5 {
+    font-size: 10px;
+  }
+  .payment-info > h6 {
+    text-align: center;
+    font-size: 16px;
+  }
+  .testimonial-head > #im3 {
+    width: 12%;
+  }
+  .testimonial-head > #head-h2 {
+    font-size: 12px;
+  }
+}

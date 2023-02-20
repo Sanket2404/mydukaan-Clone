@@ -1,0 +1,1193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pricing Page</title>
+    <link href="style.css" rel="stylesheet" />
+    <link href="Price.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid" id="navbar">
+        <a class="navbar-brand" href="#"
+          ><img src="./img/logo.svg" style="height:47px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-3 mb-lg-0 fs-5">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+              style="font-size: 19px;"
+                >Products</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="font-size: 19px;">Company</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Pricing.html" style="font-size: 19px;">Pricing</a>
+            </li>
+          </ul>
+          <form class="d-flex fs-5">
+            <a class="nav-link" href="#" style="color: black">Sign In</a>
+
+            <button
+              class="fs-6"
+              type="submit"
+              style="
+                background-color: #146eb4;
+                color: white;
+                padding: 12px;
+                border: none;
+                border-radius: 5px;
+              "
+            >
+              Start Free Trial
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Pricing-Banner -->
+
+    <section class="pricing-banner">
+      <div class="container">
+        <div class="pricing-banner-inner">
+          <h1 class="section-header1">
+            Select a plan for your business starting<br />
+            as low as ₹12/day.
+          </h1>
+          <div class="toggle-price">
+            <label class="switch">
+              <input type="checkbox" id="switcher" />
+              <label for="switcher"></label>
+            </label>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Card section -->
+
+    <section class="testimonial-section">
+      <div class="testimonial-main" style="padding-top: 2%">
+        <div class="container">
+          <div class="slider1">
+            <div class="slick-track1">
+              <div class="slick-track-info">
+                <div class="test-home">
+                  <h3 id="heading-h3">Silver</h3>
+                  <p id="data4">For new businesses and influencers.</p>
+                  <h4 id="heading-h4"><span>&#8377;</span>533</h4>
+                  <h4 id="heading-h5"><span>&#8377;</span>375</h4>
+                  <span style="padding-left: 18px; color: gray"
+                    >Billed Yearly &#8377;4,499</span
+                  >
+                  <button class="fs-6" type="submit" id="btn3">
+                    Start Free Trial
+                  </button>
+
+                  <span
+                    style="
+                      padding-left: 18px;
+                      color: gray;
+                      padding-top: 20px;
+                      font-size: 15px;
+                    "
+                    >Everything you get in Silver:</span
+                  >
+                  <ul>
+                    <li>2.99% Transaction Fee on Dukaan Pay</li>
+                    <li>Android + iOS Partner App</li>
+                    <li>Additional Pages</li>
+                    <li>Dukaan Credits</li>
+                    <li>Dukaan Marketing</li>
+                    <li>Discount Coupons</li>
+                  </ul>
+                  <a
+                    href="#"
+                    style="margin: 0 auto; color: black; padding-top: 20px"
+                  >
+                    Show more features</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="slick-track1"
+              style="border: 0.2px solid rgb(247, 184, 9)"
+            >
+              <div class="slick-track-info">
+                <div class="test-home">
+                  <h3 id="heading-h3">Gold</h3>
+                  <p id="data4">For new businesses and influencers.</p>
+                  <h4 id="heading-h4"><span>&#8377;</span>1067</h4>
+                  <h4 id="heading-h5"><span>&#8377;</span>750</h4>
+                  <span style="padding-left: 18px; color: gray"
+                    >Billed Yearly &#8377;8,999</span
+                  >
+                  <button class="fs-6" type="submit" id="btn4">
+                    Start Free Trial
+                  </button>
+
+                  <span
+                    style="
+                      padding-left: 18px;
+                      color: gray;
+                      padding-top: 20px;
+                      font-size: 15px;
+                    "
+                    >Everything you get in Silver:</span
+                  >
+                  <ul>
+                    <li>2.99% Transaction Fee on Dukaan Pay</li>
+                    <li>Android + iOS Partner App</li>
+                    <li>Additional Pages</li>
+                    <li>Dukaan Credits</li>
+                    <li>Dukaan Marketing</li>
+                    <li>Discount Coupons</li>
+                    <li>Android + iOS Partner App</li>
+                    <li>Additional Pages</li>
+                  </ul>
+                  <a
+                    href="#"
+                    style="margin: 0 auto; color: black; padding-top: 20px"
+                  >
+                    Show more features</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="slick-track1">
+              <div class="slick-track-info">
+                <div class="test-home">
+                  <h3 id="heading-h3">Platinum</h3>
+                  <p id="data4">For new businesses and influencers.</p>
+                  <h4 id="heading-h4"><span>&#8377;</span>3300</h4>
+                  <h4 id="heading-h5"><span>&#8377;</span>2500</h4>
+                  <span style="padding-left: 18px; color: gray"
+                    >Billed Yearly &#8377;29,999</span
+                  >
+                  <button class="fs-6" type="submit" id="btn3">
+                    Start Free Trial
+                  </button>
+
+                  <span
+                    style="
+                      padding-left: 18px;
+                      color: gray;
+                      padding-top: 20px;
+                      font-size: 15px;
+                    "
+                    >Everything you get in Silver:</span
+                  >
+                  <ul>
+                    <li>2.99% Transaction Fee on Dukaan Pay</li>
+                    <li>Android + iOS Partner App</li>
+                    <li>Additional Pages</li>
+                    <li>Dukaan Credits</li>
+                    <li>Dukaan Marketing</li>
+                    <li>Discount Coupons</li>
+                  </ul>
+                  <a
+                    href="#"
+                    style="margin: 0 auto; color: black; padding-top: 20px"
+                  >
+                    Show more features</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- table section -->
+    <section class="Price-table-section" style="padding-top: 3%">
+      <div class="container" style="padding: 30px">
+        <div class="table-data">
+          <div class="left-side-data">&nbsp;</div>
+          <div class="right-side-data">
+            <div class="pricing-head">
+              <h6>Silver</h6>
+              <span id="Price">₹ 4,499</span>
+              <button>Get started</button>
+            </div>
+
+            <div class="pricing-head">
+              <h6>Gold</h6>
+              <span id="Price">₹ 8,999</span>
+              <button id="btn5">Get started</button>
+            </div>
+
+            <div class="pricing-head">
+              <h6>Platinum</h6>
+              <span id="Price">₹ 29,999</span>
+              <button>Get started</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="table-data">
+          <div class="left-side-data1">
+            <h6>Online Store</h6>
+            <span>Add products, categories, payments & more.</span>
+          </div>
+          <div class="right-side-data">
+            <div class="pricing-head">
+              <span id="tick">&#10004;</span>
+            </div>
+
+            <div class="pricing-head">
+              <span id="tick">&#10004;</span>
+            </div>
+
+            <div class="pricing-head">
+              <span id="tick">&#10004;</span>
+            </div>
+          </div>
+        </div>
+
+        <hr
+          style="
+            height: 1px;
+            border-width: 0;
+            color: rgb(19, 18, 18);
+            background-color: rgb(26, 24, 24);
+          "
+        />
+
+        <div class="table-data">
+          <div class="left-side-data2">
+            <h6>Custom Domain</h6>
+          </div>
+          <div class="right-side-data">
+            <div class="pricing-head">
+              <span id="tick1">-</span>
+            </div>
+
+            <div class="pricing-head">
+              <span id="tick1">At cost</span>
+            </div>
+
+            <div class="pricing-head">
+              <span id="tick1">At cost</span>
+            </div>
+          </div>
+        </div>
+
+        <hr
+          style="
+            height: 1px;
+            border-width: 0;
+            color: rgb(19, 18, 18);
+            background-color: rgb(26, 24, 24);
+          "
+        />
+
+        <div class="table-data">
+          <div class="left-side-data2">
+            <h6>Premium Themes</h6>
+            <span
+              >Customize your store front and make it more relevant to your
+              brand.</span
+            >
+          </div>
+          <div class="right-side-data">
+            <div class="pricing-head">
+              <span id="tick1">-</span>
+            </div>
+
+            <div class="pricing-head">
+              <span id="tick1">At cost</span>
+            </div>
+
+            <div class="pricing-head">
+              <span id="tick1">At cost</span>
+            </div>
+          </div>
+        </div>
+
+        <hr
+          style="
+            height: 1px;
+            border-width: 0;
+            color: rgb(19, 18, 18);
+            background-color: rgb(26, 24, 24);
+          "
+        />
+
+        <div class="table-data">
+          <div class="left-side-data2">
+            <h6>Products</h6>
+          </div>
+          <div class="right-side-data">
+            <div class="pricing-head">
+              <span id="tick1">-</span>
+            </div>
+
+            <div class="pricing-head">
+              <span id="tick1">ulimited</span>
+            </div>
+
+            <div class="pricing-head">
+              <span id="tick1">limited</span>
+            </div>
+          </div>
+        </div>
+
+        <hr
+          style="
+            height: 1px;
+            border-width: 0;
+            color: rgb(19, 18, 18);
+            background-color: rgb(26, 24, 24);
+          "
+        />
+
+        <div class="table-data">
+          <div class="left-side-data2">
+            <h6>Sales Channels</h6>
+            <span>Sell online and share on social media.</span>
+          </div>
+          <div class="right-side-data">
+            <div class="pricing-head">
+              <span id="tick2">&#10004;</span>
+            </div>
+
+            <div class="pricing-head">
+              <span id="tick2">&#10004;</span>
+            </div>
+
+            <div class="pricing-head">
+              <span id="tick2">&#10004;</span>
+            </div>
+          </div>
+        </div>
+
+        <hr
+          style="
+            height: 1px;
+            border-width: 0;
+            color: rgb(19, 18, 18);
+            background-color: rgb(26, 24, 24);
+          "
+        />
+
+        <div class="table-data">
+          <div class="left-side-data2">
+            <h6>Dukaan Marketing</h6>
+          </div>
+          <div class="right-side-data">
+            <div class="pricing-head">
+              <span id="tick2">&#10004;</span>
+            </div>
+
+            <div class="pricing-head">
+              <span id="tick2">&#10004;</span>
+            </div>
+
+            <div class="pricing-head">
+              <span id="tick1">sport</span>
+            </div>
+          </div>
+        </div>
+
+        <hr
+          style="
+            height: 1px;
+            border-width: 0;
+            color: rgb(19, 18, 18);
+            background-color: rgb(26, 24, 24);
+          "
+        />
+
+        <div class="table-data">
+          <div class="left-side-data2">
+            <h6>Transaction fees</h6>
+          </div>
+          <div class="right-side-data">
+            <div class="pricing-head">
+              <span id="tick1" style="padding-right: 77px">0%</span>
+            </div>
+
+            <div class="pricing-head">
+              <span id="tick1" style="padding-right: 77px">0%</span>
+            </div>
+
+            <div class="pricing-head">
+              <span id="tick1" style="padding-right: 77px">0%</span>
+            </div>
+          </div>
+        </div>
+
+        <hr
+          style="
+            height: 1px;
+            border-width: 0;
+            color: rgb(19, 18, 18);
+            background-color: rgb(26, 24, 24);
+          "
+        />
+
+        <div class="table-data">
+          <div class="left-side-data2">
+            <h6>My Customer list</h6>
+          </div>
+          <div class="right-side-data">
+            <div class="pricing-head">
+              <span id="tick2">&#10004;</span>
+            </div>
+
+            <div class="pricing-head">
+              <span id="tick2">&#10004;</span>
+            </div>
+
+            <div class="pricing-head">
+              <span id="tick2">&#10004;</span>
+            </div>
+          </div>
+        </div>
+
+        <hr
+          style="
+            height: 1px;
+            border-width: 0;
+            color: rgb(19, 18, 18);
+            background-color: rgb(26, 24, 24);
+          "
+        />
+
+        <div class="table-data">
+          <div class="left-side-data2">
+            <h6>Graphics Designing Tools</h6>
+          </div>
+          <div class="right-side-data">
+            <div class="pricing-head">
+              <span id="tick2">&#10004;</span>
+            </div>
+
+            <div class="pricing-head">
+              <span id="tick2">&#10004;</span>
+            </div>
+
+            <div class="pricing-head">
+              <span id="tick2">&#10004;</span>
+            </div>
+          </div>
+        </div>
+
+        <hr
+          style="
+            height: 1px;
+            border-width: 0;
+            color: rgb(19, 18, 18);
+            background-color: rgb(26, 24, 24);
+          "
+        />
+
+        <div class="table-data">
+          <div class="left-side-data2">
+            <h6>Plugins Access</h6>
+          </div>
+          <div class="right-side-data">
+            <div class="pricing-head">
+              <span id="tick2">&#10004;</span>
+            </div>
+
+            <div class="pricing-head">
+              <span id="tick2">&#10004;</span>
+            </div>
+
+            <div class="pricing-head">
+              <span id="tick2">&#10004;</span>
+            </div>
+          </div>
+        </div>
+
+        <hr
+          style="
+            height: 1px;
+            border-width: 0;
+            color: rgb(19, 18, 18);
+            background-color: rgb(26, 24, 24);
+          "
+        />
+
+        <div class="table-data">
+          <div class="left-side-data2">
+            <h6>Dukaan Delivery Cost and Speed Optimizer</h6>
+            <span>Automatically assign delivery from multiple locations.</span>
+          </div>
+          <div class="right-side-data">
+            <div class="pricing-head">
+              <span id="tick2">- </span>
+            </div>
+
+            <div class="pricing-head">
+              <span id="tick2">&#10004;</span>
+            </div>
+
+            <div class="pricing-head">
+              <span id="tick2">&#10004;</span>
+            </div>
+          </div>
+        </div>
+
+        <hr
+          style="
+            height: 1px;
+            border-width: 0;
+            color: rgb(19, 18, 18);
+            background-color: rgb(26, 24, 24);
+          "
+        />
+
+        <div class="table-data">
+          <div class="left-side-data2">
+            <h6>Store APK</h6>
+            <span
+              >Can be distributed via multiple channels like WhatsApp, Facebook
+              & Instagram - (No play store)</span
+            >
+          </div>
+          <div class="right-side-data">
+            <div class="pricing-head">
+              <span id="tick2">- </span>
+            </div>
+
+            <div class="pricing-head">
+              <span id="tick2">&#10004;</span>
+            </div>
+
+            <div class="pricing-head">
+              <span id="tick2">&#10004;</span>
+            </div>
+          </div>
+        </div>
+
+        <hr
+          style="
+            height: 1px;
+            border-width: 0;
+            color: rgb(19, 18, 18);
+            background-color: rgb(26, 24, 24);
+          "
+        />
+
+        <div class="table-data">
+          <div class="left-side-data2">
+            <h6>Store AAB</h6>
+            <span>Can be hosted on play store.</span>
+          </div>
+          <div class="right-side-data">
+            <div class="pricing-head">
+              <span id="tick2">&#10004;</span>
+            </div>
+
+            <div class="pricing-head">
+              <span id="tick2">&#10004;</span>
+            </div>
+
+            <div class="pricing-head">
+              <span id="tick2">-</span>
+            </div>
+          </div>
+        </div>
+
+        <hr
+          style="
+            height: 1px;
+            border-width: 0;
+            color: rgb(19, 18, 18);
+            background-color: rgb(26, 24, 24);
+          "
+        />
+
+        <div class="table-data">
+          <div class="left-side-data2">
+            <h6>24/7 Partner Support</h6>
+          </div>
+          <div class="right-side-data">
+            <div class="pricing-head">
+              <span id="tick2">&#10004;</span>
+            </div>
+
+            <div class="pricing-head">
+              <span id="tick2">&#10004;</span>
+            </div>
+
+            <div class="pricing-head">
+              <span id="tick2">&#10004;</span>
+            </div>
+          </div>
+        </div>
+        <hr
+          style="
+            height: 1px;
+            border-width: 0;
+            color: rgb(19, 18, 18);
+            background-color: rgb(26, 24, 24);
+          "
+        />
+      </div>
+    </section>
+
+    <!-- Payment section -->
+
+    <section class="Payment section" style="padding: 4%">
+      <div class="container">
+        <div class="payment-mode">
+          <div class="payment-data">
+            <div class="payment-img">
+              <img src="img/payment1.svg" alt="payment-img" />
+            </div>
+            <div class="payment-info" style="padding-left: 15px">
+              <h4>SSL Secure Payments</h4>
+              <h6>
+                Your information is protected by strong<br />
+                data encryption technology.
+              </h6>
+            </div>
+          </div>
+
+          <div class="payment-data">
+            <div class="payment-img">
+              <img src="img/payment2.svg" alt="payment-img" />
+            </div>
+            <div class="payment-info" style="padding-left: 15px">
+              <h4>24x7 Customer Support</h4>
+              <h6>
+                Get in touch with us for speedy solution<br />
+                for any plan related query.
+              </h6>
+            </div>
+          </div>
+
+          <div class="payment-data">
+            <div class="payment-img">
+              <img src="img/payment3.svg" alt="payment-img" />
+            </div>
+            <div class="payment-info" style="padding-left: 15px">
+              <h4>Accepted Payments</h4>
+              <h6><img src="img/payment4.svg" style="padding-top: 8px" /></h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- testimonial section -->
+
+    <section
+      class="testimonial-section"
+      style="padding: 25px; background: rgba(250, 183, 59, 0.1)"
+    >
+      <div class="container">
+        <div class="testimonial-head">
+          <img src="img/quote.svg" id="im3" />
+          <h2 class="head-h2">What our customers are saying</h2>
+          <p class="head-para1">
+            From beginners to enterprise brands, everyone loves Dukaan!
+          </p>
+        </div>
+      </div>
+      <div class="testimonial-main" style="padding-top: 4%">
+        <div class="container">
+          <div class="slider" style="background-color: white">
+            <div class="slick-track" style="margin: 5px">
+              <div class="slick-track-info">
+                <div class="test-home">
+                  <img src="img/test1.svg" />
+                  <h5>"A true game Changer!"</h5>
+                  <p id="data">
+                    It's been a really smooth experience with Dukaan. We were
+                    deciding<br />
+                    between Shopify and Dukaan. We thought through a lot and
+                    Dukaan seemed the<br />
+                    smoothest for our selling experience considering we were
+                    setting up our store for the first time.
+                  </p>
+                  <div class="test-footer">
+                    <img src="img/pro1.webp" />
+                    <div class="test-caption">
+                      <h4>Vishnu tyagi and Piyush</h4>
+                      <p>Owner, Emo of india</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="slick-track" style="margin: 5px">
+              <div class="slick-track-info">
+                <div class="test-home">
+                  <img src="img/pro.svg" id="im2" />
+                  <h5>"30x orders after shark tank india"</h5>
+                  <p id="data">
+                    It's been a really smooth experience with Dukaan. We were
+                    deciding<br />
+                    between Shopify and Dukaan. We thought through a lot and
+                    Dukaan seemed the<br />
+                    smoothest for our selling experience considering we were
+                    setting up our store for the first time.
+                  </p>
+                  <div class="test-footer">
+                    <img src="img/test2.webp" />
+                    <div class="test-caption">
+                      <h4>Anubhav Jain</h4>
+                      <p>Founder& CEO, of Jain Shikanji</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ section -->
+
+    <div class="container" style="padding-top: 1%">
+      <h2 class="mt-5 fw-bold">FAQ</h2>
+    </div>
+    <section class="container my-4" id="maincontent">
+      <section id="accordion">
+        <a
+          class="py-3 d-block h-100 w-100 position-relative z-index-1 pr-1 text-secondary border-top"
+          aria-controls="faq-17"
+          aria-expanded="false"
+          data-toggle="collapse"
+          href="#faq-17"
+          role="button"
+        >
+          <div class="position-relative">
+            <h2 class="m-0 pr-3" style="font-size: 18px">
+              What type of businesses can use Dukaan?
+            </h2>
+            <div
+              class="position-absolute top-0 right-0 h-100 d-flex align-items-center"
+            >
+              <i class="fa fa-plus"></i>
+            </div>
+          </div>
+        </a>
+        <div class="collapse" id="faq-17">
+          <div class="card card-body border-0 p-0">
+            <p style="font-size: 15px">
+              Dukaan is best suited for business owners who do most or all of
+              their business online. In addition, if your business model relies
+              on frequent repeat purchases from customers, Dukaan's add-on
+              features can help customers make those purchases more easily and
+              faster, thus boosting customer loyalty and reducing the number of
+              abandoned carts.
+            </p>
+          </div>
+        </div>
+
+        <a
+          class="py-3 d-block h-100 w-100 position-relative z-index-1 pr-1 text-secondary border-top"
+          aria-controls="faq-18"
+          aria-expanded="false"
+          data-toggle="collapse"
+          href="#faq-18"
+          role="button"
+        >
+          <div class="position-relative">
+            <h2 class="m-0 pr-3" style="font-size: 18px">
+              What payment provider are available?
+            </h2>
+            <div
+              class="position-absolute top-0 right-0 h-100 d-flex align-items-center"
+            >
+              <i class="fa fa-plus"></i>
+            </div>
+          </div>
+        </a>
+        <div class="collapse" id="faq-18">
+          <div class="card card-body border-0 p-0">
+            <p style="font-size: 15px">
+              You can choose to accept payments from your customers via Dukaan
+              Pay or integrate with Razorpay and accept online payments. With
+              Dukaan Pay, we offer multiple payment methods to your customers
+              such as UPI, Credit/Debit card, or PayPal and Stripe, for users
+              outside India.
+            </p>
+            <p></p>
+          </div>
+        </div>
+
+        <a
+          class="py-3 d-block h-100 w-100 position-relative z-index-1 pr-1 text-secondary border-top"
+          aria-controls="faq-19"
+          aria-expanded="false"
+          data-toggle="collapse"
+          href="#faq-19"
+          role="button"
+        >
+          <div class="position-relative">
+            <h2 class="m-0 pr-3" style="font-size: 18px">
+              What is Dukaan Marketing?
+            </h2>
+            <div
+              class="position-absolute top-0 right-0 h-100 d-flex align-items-center"
+            >
+              <i class="fa fa-plus"></i>
+            </div>
+          </div>
+        </a>
+        <div class="collapse" id="faq-19">
+          <div class="card card-body border-0 p-0">
+            <p style="font-size: 15px">
+              With Dukaan Marketing you can run marketing campaigns via SMS,
+              WhatsApp or Facebook or Instagram ads directly from your Dukaan
+              account to customers. You can find more about Dukaan Marketing by
+              clicking here.
+            </p>
+            <p></p>
+          </div>
+        </div>
+
+        <a
+          class="py-3 d-block h-100 w-100 position-relative z-index-1 pr-1 text-secondary border-top"
+          aria-controls="faq-20"
+          aria-expanded="false"
+          data-toggle="collapse"
+          href="#faq-20"
+          role="button"
+        >
+          <div class="position-relative">
+            <h2 class="m-0 pr-3" style="font-size: 18px">
+              What is the store ABB file?
+            </h2>
+            <div
+              class="position-absolute top-0 right-0 h-100 d-flex align-items-center"
+            >
+              <i class="fa fa-plus"></i>
+            </div>
+          </div>
+        </a>
+        <div class="collapse" id="faq-20">
+          <div class="card card-body border-0 p-0">
+            <p style="font-size: 15px">
+              To publish your store's app on the Google Play store, you will
+              need an AAB file for your App. This can help you get more sales
+              and allow customers to discover you on the Google play store.
+              Here’s a Dukaan store that has also published their app on the
+              play store!
+            </p>
+            <p></p>
+          </div>
+        </div>
+
+        <a
+          class="py-3 d-block h-100 w-100 position-relative z-index-1 pr-1 text-secondary border-top"
+          aria-controls="faq-21"
+          aria-expanded="false"
+          data-toggle="collapse"
+          href="#faq-21"
+          role="button"
+        >
+          <div class="position-relative">
+            <h2 class="m-0 pr-3" style="font-size: 18px">
+              What is RTO Optimiser?
+            </h2>
+            <div
+              class="position-absolute top-0 right-0 h-100 d-flex align-items-center"
+            >
+              <i class="fa fa-plus"></i>
+            </div>
+          </div>
+        </a>
+        <div class="collapse" id="faq-21">
+          <div class="card card-body border-0 p-0">
+            <p style="font-size: 15px">
+              RTO stands for return to origin. The RTO optimiser is a plugin
+              developed by Dukaan. It gives the probability of a COD order
+              getting RTOed and recommends action based on that.
+            </p>
+            <p></p>
+          </div>
+        </div>
+
+        <a
+          class="py-3 d-block h-100 w-100 position-relative z-index-1 pr-1 text-secondary border-top"
+          aria-controls="faq-22"
+          aria-expanded="false"
+          data-toggle="collapse"
+          href="#faq-22"
+          role="button"
+        >
+          <div class="position-relative">
+            <h2 class="m-0 pr-3" style="font-size: 18px">
+              Can i upgrade my plan later?
+            </h2>
+            <div
+              class="position-absolute top-0 right-0 h-100 d-flex align-items-center"
+            >
+              <i class="fa fa-plus"></i>
+            </div>
+          </div>
+        </a>
+        <div class="collapse" id="faq-22">
+          <div class="card card-body border-0 p-0">
+            <p style="font-size: 15px">
+              Yes, you can choose to upgrade your Dukaan plan by going to the
+              Account details section in Dukaan. You can upgrade your existing
+              plan to the Gold or Platinum tier for the desired duration. You
+              can also reach out to us on support@mydukaan.io if you need any
+              help with this.
+            </p>
+            <p></p>
+          </div>
+        </div>
+
+        <a
+          class="py-3 d-block h-100 w-100 position-relative z-index-1 pr-1 text-secondary border-top"
+          aria-controls="faq-20"
+          aria-expanded="false"
+          data-toggle="collapse"
+          href="#faq-20"
+          role="button"
+        >
+          <div class="position-relative">
+            <h2 class="m-0 pr-3" style="font-size: 18px">
+              What is the store APK and do i get one?
+            </h2>
+            <div
+              class="position-absolute top-0 right-0 h-100 d-flex align-items-center"
+            >
+              <i class="fa fa-plus"></i>
+            </div>
+          </div>
+        </a>
+        <div class="collapse" id="faq-20">
+          <div class="card card-body border-0 p-0">
+            <p style="font-size: 15px">
+              An APK is a mobile application for your store. You can download
+              and share your store’s APK file with your customers so they can
+              shop from your store directly.!
+            </p>
+            <p></p>
+          </div>
+        </div>
+
+        <a
+          class="py-3 d-block h-100 w-100 position-relative z-index-1 pr-1 text-secondary border-top"
+          aria-controls="faq-21"
+          aria-expanded="false"
+          data-toggle="collapse"
+          href="#faq-21"
+          role="button"
+        >
+          <div class="position-relative">
+            <h2 class="m-0 pr-3" style="font-size: 18px">
+              What is RTO Optimiser?
+            </h2>
+            <div
+              class="position-absolute top-0 right-0 h-100 d-flex align-items-center"
+            >
+              <i class="fa fa-plus"></i>
+            </div>
+          </div>
+        </a>
+        <div class="collapse" id="faq-21">
+          <div class="card card-body border-0 p-0">
+            <p style="font-size: 15px">
+              RTO stands for return to origin. The RTO optimiser is a plugin
+              developed by Dukaan. It gives the probability of a COD order
+              getting RTOed and recommends action based on that.
+            </p>
+            <p></p>
+          </div>
+        </div>
+        <a
+          class="py-3 d-block h-100 w-100 position-relative z-index-1 pr-1 text-secondary border-top"
+          aria-controls="faq-22"
+          aria-expanded="false"
+          data-toggle="collapse"
+          href="#faq-22"
+          role="button"
+        >
+          <div class="position-relative">
+            <h2 class="m-0 pr-3" style="font-size: 18px">
+              Can i upgrade my plan later?
+            </h2>
+            <div
+              class="position-absolute top-0 right-0 h-100 d-flex align-items-center"
+            >
+              <i class="fa fa-plus"></i>
+            </div>
+          </div>
+        </a>
+        <div class="collapse" id="faq-22">
+          <div class="card card-body border-0 p-0">
+            <p style="font-size: 15px">
+              Yes, you can choose to get a Whatsapp Business Solution with the
+              help of our plugin. This will allow you to send order updates to
+              your customers from your WhatsApp business account.
+            </p>
+            <p></p>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- selling card section  -->
+
+    <section class="selling-section" style="padding-top: 2%">
+      <div class="container">
+        <div class="selling-items">
+          <div class="selling-home-inner">
+            <img src="img/sell.svg" />
+            <h1 class="heading-h1">Start Selling online</h1>
+            <p id="p1">
+              "Take your business online with Dukaan. Get your free<br />
+              online store in 30 seconds."
+            </p>
+            <button class="btn btn-primary fs-6" id="btn2" type="submit">
+              Start 7-day Free Trial
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+
+    <section class="footer" style="background-color: rgb(27, 27, 27)">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-content-img">
+            <img src="img/dukan4.svg" />
+          </div>
+
+          <div class="footer-content-links">
+            <ul>
+              <li>Business tools</li>
+              <li>Dukaan finder</li>
+              <li>Dukaan for PC</li>
+              <li>Dukaan delivery</li>
+              <li>Dukaan plugins</li>
+              <li>Dukaan themes</li>
+            </ul>
+          </div>
+
+          <div class="footer-content-links">
+            <ul>
+              <li>Awards'22</li>
+              <li>Help center</li>
+              <li>Blog</li>
+              <li>Banned items</li>
+            </ul>
+          </div>
+
+          <div class="footer-content-links">
+            <ul>
+              <li>About</li>
+              <li>Privacy</li>
+              <li>Term</li>
+              <li>Contact</li>
+              <li>FAQ's</li>
+            </ul>
+          </div>
+
+          <div class="footer-content-links">
+            <ul>
+              <li>Jobs</li>
+              <li>Branding</li>
+              <li>Press inquiry</li>
+              <li>Bug Bounty</li>
+            </ul>
+          </div>
+
+          <div class="footer-content-links">
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Linkedin</li>
+            </ul>
+          </div>
+        </div>
+
+        <hr
+          style="
+            height: 1px;
+            border-width: 0;
+            color: gray;
+            background-color: white;
+          "
+        />
+
+        <div class="Copyright-section">
+          <div>Growthpond Technology Pvt Ltd. All rights reserved,2023.</div>
+
+          <div class="made-in-section">
+            <span>Made in</span>
+            <img src="img/india.svg" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  </body>
+</html>
